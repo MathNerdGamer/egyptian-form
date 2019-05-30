@@ -7,7 +7,7 @@ In the article titled "An Algebraic Algorithm for the Representation Problems of
 \frac{p}{q} = \frac{1}{n_{1}} + \cdots + \frac{1}{n_{k}}.
 ```
 
-The algorithm described by Golomb puts the fraction into lowest terms so that gcd(p,q) = 1, that way p has an inverse p' modulo q. Then, there exists an integer r such that pp' = qr + 1. Then, we get
+The algorithm described by Golomb puts the fraction into lowest terms so that gcd(p,q) = 1, that way p has an inverse p' modulo q. Then, there exists an integer r such that pp' = qr + 1. From this, we get
 ```math
 \frac{p}{q} = \frac{qr + 1}{p'q} = \frac{1}{p'q} + \frac{r}{p'}.
 ```
